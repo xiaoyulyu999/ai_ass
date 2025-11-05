@@ -7,7 +7,7 @@ url = "http://localhost:11434/api/chat"
 # Define the payload (your input prompt)
 payload = {
     "model": "gemma3:1b",  # Replace with the model name you're using
-    "messages": [{"role": "user", "content": "What is Python?"}]
+    "messages": [{"role": "user", "content": "I have cold, what should i do? add desclainmar at the end"}]
 }
 
 # Send the HTTP POST request with streaming enabled
