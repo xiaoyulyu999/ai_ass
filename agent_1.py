@@ -3,10 +3,12 @@ import json
 import pandas as pd
 
 # Path to your CSV file
-PATH = "./data/salaries_2023.csv"
+PATH = "./data/appointment.csv"
 
 # Read and clean the CSV
-db = pd.read_csv(PATH)
+db = pd.read_csv(PATH, engine="python", quotechar='"', on_bad_lines='skip')
+
+
 db.fillna(0, inplace=True)
 
 # Convert part of the DataFrame into a text context for the model
@@ -17,6 +19,9 @@ context = f"Here is some data from the salaries dataset:\n{data_sample}\n\n"
 url = "http://localhost:11434/api/chat"
 
 # Initialize conversation memory
+
+prompt= ""
+
 messages = [
     {"role": "system", "content": "You are a data assistant that answers questions using the provided CSV data."},
     {"role": "user", "content": context}
