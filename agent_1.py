@@ -3,7 +3,7 @@ import json
 import pandas as pd
 
 # Path to your CSV file
-PATH = "./data/appointment.csv"
+PATH = "./data/samples.csv"
 
 # Read and clean the CSV
 db = pd.read_csv(PATH, engine="python", quotechar='"', on_bad_lines='skip')

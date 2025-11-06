@@ -1,0 +1,7 @@
+patient_id,first_name,last_name,date_of_birth,age,gender,phone_number,email,address,emergency_contact_name,emergency_contact_phone,insurance_provider,insurance_number,diagnosis
+3,John,Doe,15/05/1985,38,M,987654321,john.doe@email.com,London W1,Jane Doe,987123456,AXA,222333,Common Cold
+4,Sarah,Smith,22/11/1992,31,F,123456789,sarah.s@email.com,Manchester M3,Peter Smith,123987654,VHI,444555,Migraine
+5,Michael,Brown,03/07/1970,53,M,555111222,m.brown@email.com,Glasgow G2,Emily Brown,555333444,Laya Healthcare,666777,Hypertension
+6,Alice,White,10/02/2000,24,F,777888999,alice.w@email.com,Cardiff CF1,David White,777111222,Aviva,888999,Allergies
+7,Robert,Green,25/09/1965,58,M,444333222,r.green@email.com,Edinburgh EH1,Laura Green,444111000,IrishLife,111,Arthritis
+8,Olivia,King,18/04/1995,29,F,666777888,olivia.k@email.com,Bristol BS1,James King,666999000,AXA,112233,Asthma
